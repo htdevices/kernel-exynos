@@ -97,4 +97,15 @@ struct s5m_regulator_data {
 	struct regulator_init_data	*initdata;
 };
 
+struct s5m_opmode_data {
+        int id;
+        int mode;
+};
+
+enum s5m_opmode {
+        S5M_OPMODE_NORMAL,
+        S5M_OPMODE_LP,
+        S5M_OPMODE_STANDBY,
+};
+
 #endif /*  __LINUX_MFD_S5M_PMIC_H */

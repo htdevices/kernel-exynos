@@ -80,6 +80,10 @@ obj-$(CONFIG_MACH_MANTA)		+= board-manta-nfc.o
 obj-$(CONFIG_MACH_MANTA)		+= board-manta-bluetooth.o
 obj-$(CONFIG_MACH_MANTA)		+= board-manta-connector.o
 
+# Eshields board files
+obj-$(CONFIG_MACH_EXSHIELDS) 	+= board-exshields.o
+obj-$(CONFIG_MACH_EXSHIELDS) 	+= board-exshields-power.o
+
 # device support
 
 obj-y					+= dev-uart.o

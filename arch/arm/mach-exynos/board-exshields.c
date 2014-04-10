@@ -516,6 +516,7 @@ static void __init exshields_machine_init(void)
 	ramconsole_pdata.bootinfo = exynos_get_resetreason();
 	platform_add_devices(exshields_devices, ARRAY_SIZE(exshields_devices));
 
+	exynos5_exshields_usb_init();
 	exynos5_exshields_power_init();
 }
 

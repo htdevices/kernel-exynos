@@ -511,6 +511,8 @@ static void __init exshields_machine_init(void)
 
 	exynos_tmu_set_platdata(&exshields_tmu_pdata);
 
+	exynos5_exshields_mmc_init();
+
 	ramconsole_pdata.bootinfo = exynos_get_resetreason();
 	platform_add_devices(exshields_devices, ARRAY_SIZE(exshields_devices));
 

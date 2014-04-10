@@ -41,6 +41,7 @@ static inline int get_exshields_regulator(void)
 		& EXSHIELDS_REGULATOR_MASK;
 }
 
+void exynos5_exshields_mmc_init(void);
 void exynos5_exshields_power_init(void);
 
 #endif

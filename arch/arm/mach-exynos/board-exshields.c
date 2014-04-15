@@ -518,6 +518,7 @@ static void __init exshields_machine_init(void)
 
 	exynos5_exshields_usb_init();
 	exynos5_exshields_power_init();
+	exynos5_exshields_media_init();
 }
 
 MACHINE_START(EXSHIELDS, "Exshields")

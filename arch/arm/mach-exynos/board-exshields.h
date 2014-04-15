@@ -44,5 +44,6 @@ static inline int get_exshields_regulator(void)
 void exynos5_exshields_mmc_init(void);
 void exynos5_exshields_usb_init(void);
 void exynos5_exshields_power_init(void);
+void exynos5_exshields_media_init(void);
 
 #endif

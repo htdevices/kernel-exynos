@@ -85,6 +85,7 @@ obj-$(CONFIG_MACH_EXSHIELDS) 	+= board-exshields.o
 obj-$(CONFIG_MACH_EXSHIELDS) 	+= board-exshields-mmc.o
 obj-$(CONFIG_MACH_EXSHIELDS) 	+= board-exshields-usb.o
 obj-$(CONFIG_MACH_EXSHIELDS) 	+= board-exshields-power.o
+obj-$(CONFIG_MACH_EXSHIELDS) 	+= board-exshields-media.o
 
 # device support
 
